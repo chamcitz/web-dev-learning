@@ -1,8 +1,8 @@
-## Tools I used
+# Tools I used
 - html
 - git 
 - command line tools
-## Repository
+# Repository
 - [web dev](https://github.com/chamcitz/web-dev-learning.git)
-## Author
+# Author
 - JOHN CHAMBERLAIN
