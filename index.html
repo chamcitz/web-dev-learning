@@ -1,13 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" /> 
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="This is a product for web development" />
     <title>free-web-dev</title>
+    <style>
+
+  
+      img {
+        width: 100px;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: red;
+      }
+      p {
+        background-color: skyblue;
+        color: beige 20px;
+        padding: 20px;
+        font-size: 25px;
+        font-weight: bolder;
+      }
+
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+      tr,
+      th,
+      td {
+        border: 1px solid #1a1a1a;
+        padding: 10px;
+        text-align: left;
+      }
+    </style>
+    <link rel="stylesheet" href="./styles.css">
   </head>
+  
   <body>
+<!-- section 5 -->
+<!--  div -->
+
+
     <!-- This comment in html  -->
+
+    <!--  Link in html -->
+
+    <!--  section -->
+    <a
+      style="color: white; font-size: 32px; background-color: blue"
+      href="./about.html"
+      >About Page</a>
+    <a
+      style="
+        background-color: green;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        background-color: aqua;
+      "
+      href="./contact.html"
+      >Contact Page</a>
+    <a
+      style="
+        color: white;
+        font-size: 20px;
+        background-color: greenyellow;
+        padding: 10px;
+      "
+      href="./project.html"
+      >Project Page</a>
+    <!--  Link in html -->
+
+    <!-- HTML TABLE -->
+    <h2>Admission Table</h2>
+
+    <table>
+      <tr>
+        <th>Matric number</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <th>Admissionnumber</th>
+      </tr>
+
+      <tr>
+        <th>001</th>
+        <th>john</th>
+        <th>chamberlain</th>
+        <th>50</th>
+        <th>La1978</th>
+      </tr>
+
+      <tr>
+        <th>002</th>
+        <th>Salisu</th>
+        <th>Mohammed</th>
+        <th>44</th>
+        <th>La1979</th>
+      </tr>
+
+      <tr>
+        <th>003</th>
+        <th>Akanmu</th>
+        <th>Yetunde</th>
+        <th>53</th>
+        <th>La1980</th>
+      </tr>
+
+      <tr>
+        <th>004</th>
+        <th>Ada-aku</th>
+        <th>Victory</th>
+        <th>30</th>
+        <th>La1981</th>
+      </tr>
+
+      <tr>
+        <th>005</th>
+        <th>Ezinwane</th>
+        <th>Divine</th>
+        <th>25</th>
+        <th>La1982</th>
+      </tr>
+    </table>
+
+    <!-- HTML TABLE -->
+
+    <!-- SEMANTIC html tag -->
+    <header></header>
+    <nav></nav>
+    <main></main>
+    <section></section>
+    <aside></aside>
+    <footer></footer>
 
     <!-- heading tags -->
     <h1>John Chamberlain</h1>
@@ -25,8 +162,22 @@
       nam rem.
     </p>
     <!--  images element -->
-    <img src="./images/WEBIMAGE2.jpg" alt="This ia animal picture" width="10%" />
-    <img src="./images/WEBIMAGE3.jpg" alt="This ia animal picture" width="15%" />
+    <img
+      src="./images/WEBIMAGE2.jpg"
+      alt="This ia animal picture"
+      width="10%"
+    />
+    <img
+      src="./images/WEBIMAGE3.jpg"
+      alt="This ia animal picture"
+      width="15%"
+    />
+    <img
+      src="./images/WEBIMAGE 1.webp"
+      alt="This is an animal picture"
+      width="10%"
+      height="15%"
+    />
     <!-- images element  -->
 
     <!-- form element -->
@@ -36,62 +187,143 @@
     <input type="text" placeholder="enter middlename" />
     <br />
     <input type="text" placeholder="enter lastname" />
-    <br>
+    <br />
     <!-- input text -->
 
     <!-- input email -->
     <input type="email" placeholder="enter email" />
-    <br>
-    <input type="tel" placeholder="enter phone number"/>
-    <br>
+    <br />
+    <input type="tel" placeholder="enter phone number" />
+    <br />
     <input type="file" />
-    <br>
-    <input type="password" name="" id="">
+    <br />
+    <input type="password" name="" id="" />
     <br />
     <!-- input email -->
     <input type="date" />
     <input type="checkbox" />
-    <label for="male"></label>
-    <label for="female"></label>
+    <label for="male">male</label>
+    <input type="checkbox" />
+    <label for="female">female</label>
 
-<!-- radio -->
-<br>
-<h2>Answer the following question</h2>
-  <br>
-  <input type="radio" />
-<label for="">Are you above 18years old?</label>
-<br>
-<input type="radio" />
-<label for="">Are you a graduate</label>
-<br>
-<input type="radio" />
-<label for="">Are you an indigene of Lagos?</label>
-<br>
-<input type="radio" />
-<label for="">Are you married?</label>
-<br>
-<input type="radio" />
-<label for="">Do you have a driver's licence?</label>
-<br>
-<input type="radio" />
-<label for="">Do you speak English</label>
-<!-- radio -->
-<!-- select -->
-<select>
-  <h3>Select your Nationality</h3>
-  <option value="England">England</option>
-  <option value="Nigeria">Nigeria</option>
-  <option value="Ghana">Ghana</option>
-  <option value="Niger">Niger</option>
-  <option value="Egypt">Egypt</option>
-  <option value="Canada">Canada</option>
-  <option value="Belgium">nationality</option>
-  <option value="Peru">Peru</option>
-  <option value="Cuba">Cuba</option>
-</select>
+    <!-- radio -->
+    <br />
+    <h2>Answer the following question</h2>
+    <br />
+    <input type="radio" />
+    <label for="">Are you above 18years old?</label>
+    <br />
+    <input type="radio" />
+    <label for="">Are you a graduate</label>
+    <br />
+    <input type="radio" />
+    <label for="">Are you an indigene of Lagos?</label>
+    <br />
+    <input type="radio" />
+    <label for="">Are you married?</label>
+    <br />
+    <input type="radio" />
+    <label for="">Do you have a driver's licence?</label>
+    <br />
+    <input type="radio" />
+    <label for="">Do you speak English</label>
+    <!-- radio -->
+    <!-- select -->
+    <h3>Select your Nationality</h3>
+    <select>
+      <option value="England">England</option>
+      <option value="Nigeria">Nigeria</option>
+      <option value="Ghana">Ghana</option>
+      <option value="Niger">Niger</option>
+      <option value="Egypt">Egypt</option>
+      <option value="Canada">Canada</option>
+      <option value="Belgium">nationality</option>
+      <option value="Peru">Peru</option>
+      <option value="Cuba">Cuba</option>
+    </select>
 
-<button type="submit">submit info</button>
-<button type="reset">reset info</button>
-</form>
-</body>
+    <button type="submit">submit info</button>
+    <button type="reset">reset info</button>
+
+    <!-- HTML LISTS -->
+    <h3>Two type of lists in HTML</h3>
+    <p>unordered Lists</p>
+    <h3>Six favourite place of my choice</h3>
+    <ul>
+      <li>Israel</li>
+      <li>Dubai</li>
+      <li>California</li>
+      <li>Japan</li>
+      <li>Ethopian</li>
+      <li>Brazil</li>
+    </ul>
+
+    <p>Ordered Lists</p>
+    <h3>List of Stadia</h3>
+    <ol>
+      <li>Anfield</li>
+      <li>Standford Bridge</li>
+      <li>Emirate</li>
+      <li>Etihad</li>
+      <li>Bernabeu</li>
+      <li>Villa Park</li>
+    </ol>
+
+    <!-- HTML LIST -->
+    <!-- div -->
+    <h3>Creating content section</h3>
+    <!-- section 1 -->
+    <h4>section 1</h4>
+    <div>
+      <ol>
+        <li>List</li>
+        <li>List</li>
+      </ol>
+      <!-- section 1 -->
+    </div>
+    <!-- section 2 -->
+    <h4>section 2</h4>
+
+    <div>
+      <ol>
+        <li>List</li>
+        <li>List</li>
+      </ol>
+      <!-- section 2 -->
+    </div>
+    <!-- section 3 -->
+    <h4>section 3</h4>
+    <div>
+      <ol>
+        <li>List</li>
+        <li>List</li>
+      </ol>
+    </div>
+    <!-- section 3 -->
+
+    <!-- section 4 -->
+    <h4>section 4</h4>
+    <div>
+      <ol>
+        <li>List</li>
+        <li>List</li>
+      </ol>
+    </div>
+    <!-- section 4 -->
+
+    <!-- section 5 -->
+    <h4>section 5</h4>
+    <section>
+      <button>Click me</button>
+      <button>Send info</button>
+    </section>
+    
+    <div>
+      <ol>
+        <li>List</li>
+        <li>List</li>
+      </ol>
+    </div>
+    <!-- section 5 -->
+  </body>
 </html>
